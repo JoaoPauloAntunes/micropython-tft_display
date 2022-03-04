@@ -17,4 +17,4 @@ def color565(r, g=0, b=0):
 spi = machine.SPI(1, baudrate=32000000)
 display = ili9341.ILI9341(spi, cs=machine.Pin(0), dc=machine.Pin(15))
 
-display.fill(color565(255, 0, 0))
+# display.fill(color565(255, 0, 0))
