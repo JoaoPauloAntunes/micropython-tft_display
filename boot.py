@@ -2,7 +2,7 @@ print("--boot.py")
 import network
 
 from secrets import ssid, password
-from setup import TURN_ON_WIFI
+from config import TURN_ON_WIFI
 
 def do_connect():
   wlan = network.WLAN(network.STA_IF)
