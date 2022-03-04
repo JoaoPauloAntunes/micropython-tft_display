@@ -3,9 +3,7 @@ import ustruct
 
 
 def color565(r, g=0, b=0):
-    """Convert red, green and blue values (0-255) into a 16-bit 565 encoding.  As
-    a convenience this is also available in the parent adafruit_rgb_display
-    package namespace."""
+    """Convert red, green and blue values (0-255) into a 16-bit 565 encoding."""
     try:
         r, g, b = r  # see if the first var is a tuple/list
     except TypeError:
